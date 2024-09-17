@@ -1,0 +1,27 @@
+{
+  "name": "com.xacce.dotsinput.camerarays",
+  "rootNamespace": "DotsInput",
+  "references": [
+    "Unity.Entities",
+    "Unity.Entities.Hybrid",
+    "Unity.Collections",
+    "Unity.Mathematics",
+    "Unity.Physics.Custom",
+    "Unity.Physics",
+    "Unity.Physics.Hybrid",
+    "Unity.InputSystem",
+    "Unity.Burst",
+    "com.xacce.dotsinput",
+    "com.xacce.core.runtime",
+    "com.xacce.core.hybrid"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": true,
+  "overrideReferences": true,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
