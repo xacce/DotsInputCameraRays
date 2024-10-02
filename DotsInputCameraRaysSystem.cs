@@ -11,6 +11,7 @@ namespace DotsInput
             if (camera == null) return;
             foreach (var (raysRwo, axis) in SystemAPI.Query<RefRW<DotsInputCameraRays>, DynamicBuffer<DotsInputAxisElement>>())
             {
+                if (axis.Length == 0) return;
                 ref var raysRw = ref raysRwo.ValueRW;
                 var uray = camera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
                 var upray = camera.ScreenPointToRay(axis[0].GetFloat3());
